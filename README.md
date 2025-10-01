@@ -13,14 +13,14 @@ Cracks passwords by matching hashes with guessed values
 
 This project mimics how attackers use hash lists from data breaches and attempt to recover passwords offline.
 
-🛠️ Tools & Technologies Used
+Tools & Technologies Used
 Tool	Purpose
 Python	Core scripting language
 hashlib	For generating MD5 hashes
 Wordlist file	Set of common passwords to try
 Hash file	Simulated user database with hashed passwords
 
-🗃️ Files Created
+Files Created
 File Name	Description
 brute-crack.py	Main Python script for the brute-force logic
 hashes.txt	Contains username:hashed_password entries
